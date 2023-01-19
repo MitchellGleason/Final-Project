@@ -6,4 +6,9 @@
  
  ## Entity Relationship Diagram
  
+ Based on the original dataset we were able to extract these table to help categorize the sales data into Retailers, Product, Region and States;
+ 
+ ![ERD](https://user-images.githubusercontent.com/111805716/213328974-c87d9f0b-dbc6-4edd-9eb6-4ffeaf380b06.png)
+
+ 
  
