@@ -40,8 +40,11 @@ CREATE TABLE "States" (
     "State_ID" int   NOT NULL,
     "State" varchar(255)   NOT NULL,
     "Population" int   NOT NULL,
-    "Male_percentage" int   NOT NULL,
-    "Female_percentage" int   NOT NULL,
+    "Median_age" int   NOT NULL,
+    "Sex_ratio" int   NOT NULL,
+    "Age_dependency_ratio" int   NOT NULL,
+    "Old_age_dependency_ratio" int   NOT NULL,
+    "Child_dependency_ratio" int   NOT NULL,
     "Avg_income" int   NOT NULL,
     CONSTRAINT "pk_States" PRIMARY KEY (
         "State_ID"
