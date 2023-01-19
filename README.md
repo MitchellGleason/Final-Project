@@ -8,7 +8,8 @@
  
  Based on the original dataset we were able to extract these table to help categorize the sales data into Retailers, Product, Region and States;
  
- ![ERD](https://user-images.githubusercontent.com/111805716/213328974-c87d9f0b-dbc6-4edd-9eb6-4ffeaf380b06.png)
+![ERD-2](https://user-images.githubusercontent.com/111805716/213333272-a3e203f2-e5af-4f01-bb0e-b2115940b172.png)
+
 
  
  
