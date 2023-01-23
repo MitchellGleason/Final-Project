@@ -18,7 +18,7 @@
  Using get_dummies() method, we will be converting some of our Feature variables into Binary. We will be testing our data on different Machine Learning algorithms namely Multiple Linear Regression, Random Forest etc. in order to check  which is the best fit for closest prediction.
 
 
-# Tableau Sketches
+## Tableau Sketches
 
 Following are some of the sketches that can be can drawan using Tableu for the Adidas Dataset :
 
