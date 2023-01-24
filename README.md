@@ -33,7 +33,7 @@ Multiple Linear Regression:
 
 Unsupervised Machine Learning Clustering:
 - Input Data:
-	- Dimensionality reduction/scaling of demographic data (per state and province)
+	- Dimensionality reduction/scaling of demographic data (per state)
 - Output Data:
 	- Categorized groupings of similar states/provinces
 
