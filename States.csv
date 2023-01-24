@@ -1,0 +1,51 @@
+State,State_ID,Region_ID
+New York,ST1,RG1
+Texas,ST2,RG2
+California,ST3,RG3
+Illinois,ST4,RG4
+Pennsylvania,ST5,RG1
+Nevada,ST6,RG3
+Colorado,ST7,RG3
+Washington,ST8,RG3
+Florida,ST9,RG5
+Minnesota,ST10,RG4
+Montana,ST11,RG4
+Tennessee,ST12,RG2
+Nebraska,ST13,RG4
+Alabama,ST14,RG2
+Maine,ST15,RG1
+Alaska,ST16,RG3
+Hawaii,ST17,RG3
+Wyoming,ST18,RG3
+Virginia,ST19,RG5
+Michigan,ST20,RG4
+Missouri,ST21,RG4
+Utah,ST22,RG3
+Oregon,ST23,RG3
+Louisiana,ST24,RG2
+Idaho,ST25,RG3
+Arizona,ST26,RG3
+New Mexico,ST27,RG3
+Georgia,ST28,RG5
+South Carolina,ST29,RG5
+North Carolina,ST30,RG5
+Ohio,ST31,RG4
+Kentucky,ST32,RG5
+Mississippi,ST33,RG2
+Arkansas,ST34,RG2
+Oklahoma,ST35,RG2
+Kansas,ST36,RG4
+South Dakota,ST37,RG4
+North Dakota,ST38,RG4
+Iowa,ST39,RG4
+Wisconsin,ST40,RG4
+Indiana,ST41,RG4
+West Virginia,ST42,RG1
+Maryland,ST43,RG1
+Delaware,ST44,RG1
+New Jersey,ST45,RG1
+Connecticut,ST46,RG1
+Rhode Island,ST47,RG1
+Massachusetts,ST48,RG1
+Vermont,ST49,RG1
+New Hampshire,ST50,RG1
