@@ -46,4 +46,3 @@ Following are some of the sketches that can be can drawan using Tableu for the A
 2) We get a pie chart of Total sales or units sold for every region.
 
 3) We can create a line chart to see total sales for each years by monthly, quarterly , half yearly by placing Invoice date to columns and Total sales in Rows column
-
