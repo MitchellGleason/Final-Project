@@ -36,13 +36,6 @@ Unsupervised Machine Learning Clustering:
 	- Dimensionality reduction/scaling of demographic data (per state and province)
 - Output Data:
 	- Categorized groupings of similar states/provinces
-		
-Nueral Network:
-- Input Data:
-	- Demographic (Age, Gender, Income, etc.) per state/province (likely Dimensionality reduction/scaled)
-	- Total monthly income per state
-- Output Data:
-	- Total monthly income per province
 
 ## Tableau Sketches
 
