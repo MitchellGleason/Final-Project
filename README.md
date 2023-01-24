@@ -24,7 +24,25 @@
  - train the model (passing on Feature variables to train model)
  -  make predictions (predicting Target variable (total sales or Operating Margin))
 
+Multiple Linear Regression:
+	Input Data:
+		Total daily income per state
+		Date
+	Output Data:
+		Prediction of future daily income per state
 
+Unsupervised Machine Learning Clustering:
+	Input Data:
+		Dimensionality reduction/scaling of demographic data (per state and province)
+	Output Data:
+		Categorized groupings of similar states/provinces
+		
+Nueral Network:
+	Input Data:
+		Demographic (Age, Gender, Income, etc.) per state/province (likely Dimensionality reduction/scaled)
+		Total monthly income per state
+	Output Data:
+		Total monthly income per province
 
 ## Tableau Sketches
 
