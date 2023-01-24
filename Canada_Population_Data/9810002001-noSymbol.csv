@@ -1,0 +1,92 @@
+﻿"Age (in single years), average age and median age and gender: Canada, provinces and territories, census metropolitan areas and census agglomerations with parts 1"
+"Frequency: Occasional"
+"Table: 98-10-0020-01"
+"Release date: 2022-04-27"
+"Geography: Canada, Province or territory, Census metropolitan area, Census agglomeration, Census metropolitan area part, Census agglomeration part"
+"Universe: Total Population, including institutional residents, 2021 and 2016 censuses — 100% data"
+"Variable List: Age (in single years), average age and median age (128), Census year (2), Gender (3a)"
+
+,"Census year (2)","2021",,
+,"Gender (3a) 3 4","Total - Gender","Men+ 5","Women+ 6"
+"Geography","Age (in single years), average age and median age (128) 2","2021","2021","2021"
+"Canada i1","Total - Age","36,991,980","18,226,240","18,765,740"
+,"Average age","41.9","41.0","42.8"
+,"Median age","41.6","40.4","42.8"
+"Newfoundland and Labrador i2","Total - Age","510,550","250,075","260,475"
+,"Average age","45.5","44.7","46.3"
+,"Median age","48.4","47.6","49.2"
+"Prince Edward Island i7","Total - Age","154,330","75,385","78,945"
+,"Average age","43.1","42.1","44.0"
+,"Median age","44.0","42.8","45.2"
+"Nova Scotia i10","Total - Age","969,385","471,735","497,650"
+,"Average age","44.2","43.2","45.2"
+,"Median age","45.6","44.4","46.8"
+"New Brunswick i16","Total - Age","775,610","381,455","394,150"
+,"Average age","44.7","43.8","45.6"
+,"Median age","46.8","45.6","47.6"
+"Quebec i26","Total - Age","8,501,835","4,201,960","4,299,875"
+,"Average age","42.8","41.8","43.7"
+,"Median age","43.2","42.0","44.0"
+"Ontario i56","Total - Age","14,223,940","6,970,850","7,253,090"
+,"Average age","41.8","40.7","42.8"
+,"Median age","41.6","40.0","42.8"
+"Manitoba i104","Total - Age","1,342,155","666,495","675,660"
+,"Average age","39.7","38.7","40.7"
+,"Median age","38.4","37.2","39.6"
+"Saskatchewan i111","Total - Age","1,132,505","563,125","569,380"
+,"Average age","39.8","38.9","40.7"
+,"Median age","38.8","38.0","39.6"
+"Alberta i121","Total - Age","4,262,635","2,127,935","2,134,700"
+,"Average age","39.0","38.4","39.7"
+,"Median age","38.4","37.6","38.8"
+"British Columbia i141","Total - Age","5,000,880","2,457,510","2,543,365"
+,"Average age","43.1","42.2","43.9"
+,"Median age","42.8","41.6","44.0"
+"Yukon i170","Total - Age","40,235","20,100","20,130"
+,"Average age","39.9","39.9","40.0"
+,"Median age","39.2","39.2","39.6"
+"Northwest Territories i172","Total - Age","41,070","20,845","20,225"
+,"Average age","36.4","36.4","36.3"
+,"Median age","35.6","35.6","35.6"
+"Nunavut i174","Total - Age","36,860","18,765","18,095"
+,"Average age","28.3","28.3","28.2"
+,"Median age","25.6","25.6","25.8"
+
+
+Abbreviation notes:
+
+List of abbreviations and acronyms found within various Census products.
+(https://www12.statcan.gc.ca/census-recensement/2021/ref/symb-ab-acr-eng.cfm)
+
+
+
+iBall:
+i1,"Geography name: Canada; Geographic area type: Country; Geographic area type abbreviation: Country; Geographic level: Country; Province or territory abbreviation: ...; Dissemination Geography Unique Identifier (DGUID): 2021A000011124; Alternative geographic code: 01; Province or territory geocode: 01; Short-form total non-response rate: 3.1; Data quality flag: 20000; Data quality note: Excludes census data for one or more incompletely enumerated reserves or settlements."
+i2,"Geography name: Newfoundland and Labrador; Geographic area type: Province; Geographic area type abbreviation: PR; Geographic level: Province or territory; Province or territory abbreviation: N.L.; Dissemination Geography Unique Identifier (DGUID): 2021A000210; Alternative geographic code: 10; Province or territory geocode: 10; Short-form total non-response rate: 3.1; Data quality flag: 00000; Data quality note: ..."
+i7,"Geography name: Prince Edward Island; Geographic area type: Province; Geographic area type abbreviation: PR; Geographic level: Province or territory; Province or territory abbreviation: P.E.I.; Dissemination Geography Unique Identifier (DGUID): 2021A000211; Alternative geographic code: 11; Province or territory geocode: 11; Short-form total non-response rate: 2.4; Data quality flag: 00000; Data quality note: ..."
+i10,"Geography name: Nova Scotia; Geographic area type: Province; Geographic area type abbreviation: PR; Geographic level: Province or territory; Province or territory abbreviation: N.S.; Dissemination Geography Unique Identifier (DGUID): 2021A000212; Alternative geographic code: 12; Province or territory geocode: 12; Short-form total non-response rate: 2.9; Data quality flag: 00000; Data quality note: ..."
+i16,"Geography name: New Brunswick; Geographic area type: Province; Geographic area type abbreviation: PR; Geographic level: Province or territory; Province or territory abbreviation: N.B.; Dissemination Geography Unique Identifier (DGUID): 2021A000213; Alternative geographic code: 13; Province or territory geocode: 13; Short-form total non-response rate: 3.2; Data quality flag: 00000; Data quality note: ..."
+i26,"Geography name: Quebec; Geographic area type: Province; Geographic area type abbreviation: PR; Geographic level: Province or territory; Province or territory abbreviation: Que.; Dissemination Geography Unique Identifier (DGUID): 2021A000224; Alternative geographic code: 24; Province or territory geocode: 24; Short-form total non-response rate: 2.9; Data quality flag: 20000; Data quality note: Excludes census data for one or more incompletely enumerated reserves or settlements."
+i56,"Geography name: Ontario; Geographic area type: Province; Geographic area type abbreviation: PR; Geographic level: Province or territory; Province or territory abbreviation: Ont.; Dissemination Geography Unique Identifier (DGUID): 2021A000235; Alternative geographic code: 35; Province or territory geocode: 35; Short-form total non-response rate: 2.8; Data quality flag: 20000; Data quality note: Excludes census data for one or more incompletely enumerated reserves or settlements."
+i104,"Geography name: Manitoba; Geographic area type: Province; Geographic area type abbreviation: PR; Geographic level: Province or territory; Province or territory abbreviation: Man.; Dissemination Geography Unique Identifier (DGUID): 2021A000246; Alternative geographic code: 46; Province or territory geocode: 46; Short-form total non-response rate: 3.5; Data quality flag: 20000; Data quality note: Excludes census data for one or more incompletely enumerated reserves or settlements."
+i111,"Geography name: Saskatchewan; Geographic area type: Province; Geographic area type abbreviation: PR; Geographic level: Province or territory; Province or territory abbreviation: Sask.; Dissemination Geography Unique Identifier (DGUID): 2021A000247; Alternative geographic code: 47; Province or territory geocode: 47; Short-form total non-response rate: 4.5; Data quality flag: 20000; Data quality note: Excludes census data for one or more incompletely enumerated reserves or settlements."
+i121,"Geography name: Alberta; Geographic area type: Province; Geographic area type abbreviation: PR; Geographic level: Province or territory; Province or territory abbreviation: Alta.; Dissemination Geography Unique Identifier (DGUID): 2021A000248; Alternative geographic code: 48; Province or territory geocode: 48; Short-form total non-response rate: 3.6; Data quality flag: 20000; Data quality note: Excludes census data for one or more incompletely enumerated reserves or settlements."
+i141,"Geography name: British Columbia; Geographic area type: Province; Geographic area type abbreviation: PR; Geographic level: Province or territory; Province or territory abbreviation: B.C.; Dissemination Geography Unique Identifier (DGUID): 2021A000259; Alternative geographic code: 59; Province or territory geocode: 59; Short-form total non-response rate: 3.5; Data quality flag: 20000; Data quality note: Excludes census data for one or more incompletely enumerated reserves or settlements."
+i170,"Geography name: Yukon; Geographic area type: Territory; Geographic area type abbreviation: TERR; Geographic level: Province or territory; Province or territory abbreviation: Y.T.; Dissemination Geography Unique Identifier (DGUID): 2021A000260; Alternative geographic code: 60; Province or territory geocode: 60; Short-form total non-response rate: 4.3; Data quality flag: 00010; Data quality note: ..."
+i172,"Geography name: Northwest Territories; Geographic area type: Territory; Geographic area type abbreviation: TERR; Geographic level: Province or territory; Province or territory abbreviation: N.W.T.; Dissemination Geography Unique Identifier (DGUID): 2021A000261; Alternative geographic code: 61; Province or territory geocode: 61; Short-form total non-response rate: 8.2; Data quality flag: 00010; Data quality note: ..."
+i174,"Geography name: Nunavut; Geographic area type: Territory; Geographic area type abbreviation: TERR; Geographic level: Province or territory; Province or territory abbreviation: Nvt.; Dissemination Geography Unique Identifier (DGUID): 2021A000262; Alternative geographic code: 62; Province or territory geocode: 62; Short-form total non-response rate: 20.2; Data quality flag: 02020; Data quality note: ..."
+
+
+
+Footnotes:
+1,"Historical comparison of geographic areas    The boundaries and names of census geographies can change from one census to the next. In order to facilitate data comparisons between censuses, previous census data have been adjusted to reflect as closely as possible the 2021 boundaries of these areas. The methodology used for this adjustment involved spatially linking blocks of previous censuses. A previous census block was linked to the 2021 area within which its representative point fell. A limited number of interactive linkages were completed to further enhance the adjustment in certain areas. For some census geographies, it was not possible to reflect the 2021 boundaries. The 2021 boundaries may not be reflected as there was no previous census block to assign to the 2021 area. As well previous census data for some 2021 areas may not be available due to the fact that the concordance did not produce an accurate representation of the 2021 area."
+2,"Age    'Age' refers to the age of a person (or subject) of interest at last birthday (or relative to a specified, well-defined reference date)."
+3,"Gender  Gender refers to an individual's personal and social identity as a man, woman or non-binary person (a person who is not exclusively a man or a woman).   Gender includes the following concepts:   gender identity, which refers to the gender that a person feels internally and individually;   gender expression, which refers to the way a person presents their gender, regardless of their gender identity, through body language, aesthetic choices or accessories (e.g., clothes, hairstyle and makeup), which may have traditionally been associated with a specific gender.  A person's gender may differ from their sex at birth, and from what is indicated on their current identification or legal documents such as their birth certificate, passport or driver's licence. A person's gender may change over time.   Some people may not identify with a specific gender."
+4,"Given that the non-binary population is small, data aggregation to a two-category gender variable is sometimes necessary to protect the confidentiality of responses provided. In these cases, individuals in the category “non-binary persons” are distributed into the other two gender categories and are denoted by the “+” symbol.    The sex variable in census years prior to 2021 and the two-category gender variable in the 2021 Census are included together in the [data table]. Although sex and gender refer to two different concepts, the introduction of gender is not expected to have a significant impact on data analysis and historical comparability, given the small size of the transgender and non-binary populations. For additional information on changes of concepts over time, please consult the Age, Sex at Birth and Gender Reference Guide."
+5,"Prior to the 2021 Census, this category refers to males. Starting in 2021, this category includes men and boys, as well as some non-binary persons."
+6,"Prior to the 2021 Census, this category refers to females. Starting in 2021, this category includes women and girls, as well as some non-binary persons."
+
+
+
+"How to cite: Statistics Canada. Table 98-10-0020-01  Age (in single years), average age and median age and gender: Canada, provinces and territories, census metropolitan areas and census agglomerations with parts"
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810002001
