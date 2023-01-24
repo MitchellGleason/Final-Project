@@ -20,8 +20,6 @@ CREATE TABLE "Adidas_sales" (
 CREATE TABLE "Retailers" (
     "Retailer_ID" int   NOT NULL,
     "Retailer" varchar(255)   NOT NULL,
-    "Region_ID" int   NOT NULL,
-    "State_ID" int   NOT NULL,
     CONSTRAINT "pk_Retailers" PRIMARY KEY (
         "Retailer_ID"
      )
@@ -42,10 +40,7 @@ CREATE TABLE "States" (
     "Population" int   NOT NULL,
     "Median_age" int   NOT NULL,
     "Sex_ratio" int   NOT NULL,
-    "Age_dependency_ratio" int   NOT NULL,
-    "Old_age_dependency_ratio" int   NOT NULL,
-    "Child_dependency_ratio" int   NOT NULL,
-    "Avg_income" int   NOT NULL,
+    "Median_income" int   NOT NULL,
     CONSTRAINT "pk_States" PRIMARY KEY (
         "State_ID"
      )
@@ -59,17 +54,22 @@ CREATE TABLE "Products" (
      )
 );
 
+CREATE TABLE "Provinces/Territories" (
+    "Province" varchar(255)   NOT NULL,
+    "Population" int   NOT NULL,
+    "Median_age" int   NOT NULL,
+    "Sex_ratio" int   NOT NULL,
+    "Median_income" int   NOT NULL
+);
+
 ALTER TABLE "Adidas_sales" ADD CONSTRAINT "fk_Adidas_sales_Retailer_ID" FOREIGN KEY("Retailer_ID")
 REFERENCES "Retailers" ("Retailer_ID");
 
+ALTER TABLE "Adidas_sales" ADD CONSTRAINT "fk_Adidas_sales_Region_ID_State_ID" FOREIGN KEY("Region_ID", "State_ID")
+REFERENCES "States" ("Region_ID", "State_ID");
+
 ALTER TABLE "Adidas_sales" ADD CONSTRAINT "fk_Adidas_sales_Product_ID" FOREIGN KEY("Product_ID")
 REFERENCES "Products" ("Product_ID");
-
-ALTER TABLE "Retailers" ADD CONSTRAINT "fk_Retailers_Region_ID" FOREIGN KEY("Region_ID")
-REFERENCES "Regions" ("Region_ID");
-
-ALTER TABLE "Retailers" ADD CONSTRAINT "fk_Retailers_State_ID" FOREIGN KEY("State_ID")
-REFERENCES "States" ("State_ID");
 
 ALTER TABLE "Regions" ADD CONSTRAINT "fk_Regions_Region_ID" FOREIGN KEY("Region_ID")
 REFERENCES "States" ("Region_ID");
