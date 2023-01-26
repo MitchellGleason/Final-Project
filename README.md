@@ -2,9 +2,9 @@
  
  ## Project Idea
  
- Analyzing the Adidas Sales Data 2020-2022 from 6 retailers across all 50 states in the US and referencing that against US demographics data to build a machine learning model that can predict future sales trends in total sales and operating income based on age group, gender and household income.
+Analyzing the Adidas Sales Data 2020-2022 from 6 retailers across all 50 states in the US and referencing that against US demographics data to build a machine learning model that can predict future sales trends in total sales and operating income based on age group, gender and household income.
  
- ## Description of Data
+## Description of Data
  
 Adidas, a global sportswear company, saw a decline in sales during the 2020-2022 period, primarily due to the impact of the COVID-19 pandemic on the retail industry. In 2020, Adidas reported a decline in sales of 8% compared to the previous year. However, in 2021, the company saw a rebound in sales with an increase of 8% compared to 2020. This was due in part to the reopening of brick-and-mortar stores and the increasing demand for athletic wear as people returned to sports and fitness activities. Additionally, the company's e-commerce sales also increased significantly during this time period, as more consumers turned to online shopping. Despite the challenging economic conditions, Adidas was able to maintain profitability during this period through cost-saving measures and a focus on digital sales channels. The data we are analyzing is the Adidas Sales Data 2020-2022 from 6 retailers across all 50 states in the US.
 
@@ -77,7 +77,7 @@ Unsupervised Machine Learning Clustering:
 
 ## Exploratory Data Analysis & Tableau Visualizations
 
-These are the list of various exploratory analysis data ideas and questions for visualization and relational data using Tableau for the Adidas Dataset. The outcome will be based on what is relevant to the dataset:
+The following is an exhaustive list of various exploratory data analysis and visualization to be executed with Tableau & SQL using the Adidas Sales Dataset. The outcome will be based on what is relevant to the final presentation:
 
 ### Visualizations based on US Census Data
 
