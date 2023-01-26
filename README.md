@@ -10,33 +10,20 @@ Adidas, a global sportswear company, saw a decline in sales during the 2020-2022
 
 ## Description of data files
 
-1. Adidas US Sales Datasets.xlsx - Raw Data file exported from kaggle.com
-
-2. ETL_Process_I.ipynb - Python Notebooks used to clean data set 
-
-3. cleaned_adidas_sales_data.csv - Output csv file post execution first stage of ETL
-
-4. ETL_2.ipynb - Generate lookup tables for the relational database
-
-5. Adidas_sales.csv - Adidas Sales Dataset
-
-6. Retailers.csv - Retailers Lookup table
-
-7. States.csv - States Lookup table
-
-8. Regions.csv - Regions Lookup table
-
-9. Products.csv - Products Lookup table
-
-10. Tableau.csv - Clean dataset for Tableau visualizations & dashboard
-
-11. ERD.png -  Relational schema generated from quickdbd
-
-12. ERD.sql - Query file to generate tables in relational database
-
-13. US_Population_Data folder - US Census Data for 2020 from United States Census Bureau
-
-14. Canada_Population_Data folder - Canada Census Data for 2020 from Statistics Canada
+- Adidas US Sales Datasets.xlsx - Raw Data file exported from kaggle.com
+- ETL_Process_I.ipynb - Python Notebooks used to clean data set 
+- cleaned_adidas_sales_data.csv - Output csv file post execution first stage of ETL
+- ETL_2.ipynb - Generate lookup tables for the relational database
+- Adidas_sales.csv - Adidas Sales Dataset
+- Retailers.csv - Retailers Lookup table
+- States.csv - States Lookup table
+- Regions.csv - Regions Lookup table
+- Products.csv - Products Lookup table
+- Tableau.csv - Clean dataset for Tableau visualizations & dashboard
+- ERD.png -  Relational schema generated from quickdbd
+- ERD.sql - Query file to generate tables in relational database
+- US_Population_Data folder - US Census Data for 2020 from United States Census Bureau
+- Canada_Population_Data folder - Canada Census Data for 2020 from Statistics Canada
 
 
 
