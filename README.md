@@ -75,26 +75,66 @@ Unsupervised Machine Learning Clustering:
 - Output Data:
 	- Categorized groupings of similar states/provinces
 
-## Tableau Sketches
+## Exploratory Data Analysis & Tableau Visualizations
 
-Following are some of the sketches that can be can drawan using Tableu for the Adidas Dataset :
+These are the list of various exploratory analysis data ideas and questions for visualization and relational data using Tableau for the Adidas Dataset. The outcome will be based on what is relevant to the dataset:
 
-1. We can get a Bar chart for Total Sales for each product, State and region. For that we have to place Total Sales in Rows and Product ,state and/or region in Columns
+### Visualizations based on US Census Data
 
-2. We get a pie chart of Total sales or units sold for every region.
+1. Map of US population by State.
+2. Ordered Bar Chart or line graph of US population by total, male and female.
+3. Ordered Bar Chart or line graph of median age by total, male and female.
+4. Map of median income earnings by State
+5. Median Age Vs. Income Earnings Graph (Ordered by Income)
+6. Sex Ratio Vs. Income Earnings Graph (Ordered by Income)
 
-3. We can create a line chart to see total sales for each years by monthly, quarterly , half yearly by placing Invoice date to columns and Total sales in Rows column
+### Visualizations based on Adidas Sales Data
+ 
+#### Overall Dashboard
+ 
+1. Add some Demographic Data from US Census
+2. Total Sales for Adidas for 2020 and 2021
+3. Total Operating Profit for Adidas for 2020 and 2021
+4. Total Retailers, Regions, States, Product Categories (General Overview)
 
-## Questions to Answer
+#### Retailer Dashboard
 
-* What is the overall sales trend for Adidas products across all 50 states in the US between 2020-2022?
-* Which retailer had the highest sales for Adidas products during this time period?
-* Which state had the highest sales for Adidas products during this time period?
-* Which product categories have the highest sales for Adidas during this time period?
-* How have the sales of Adidas products changed by quarter during this time period?
-* Which months had the highest sales for Adidas products during this time period?
-* What is the average transaction value for Adidas products during this time period?
-* How does the total sales for Adidas products change in 50 states based on median income during this time period?
-* How does the sales of Adidas products vary by demographic median age during this time period?
-* How does the sales of Adidas products vary by location (urban, rural, etc.) during this time period?
-* What are the top-selling Adidas products by state during this time period?
+5. Retailer Presence by State
+6. Total Sales by Retailer (Total, Region, State, Product Category, Sales Method)
+7. Total Units Sold by Retailer (Total, Region, State, Product Category, Sales Method)
+8. Operating Profit by Retailer (Total, Region, State, Product Category, Sales Method)
+9. Average Operating Margin of Retailer (Total, Region, State, Product Category, Sales Method)
+
+#### Product Dashboard
+
+10. Total Sales by Product (Total, Region, State, Retailer, Sales Method)
+11. Total Units Sold by Product (Total, Region, State, Retailer, Sales Method)
+12. Average Operating Profit Margin by Product (Total, Region, State, Retailer, Sales Method)
+13. Operating Profit by Product (Total, Region, State, Retailer, Sales Method)
+14. Average Retail Price by Product (Total, Region, State, Retailer, Sales Method)
+
+#### Sales Method Dashboard
+
+15. Total Sales by Method (Total, Region, State, Retailer, Product Category)
+16. Total Units Sold by Method (Total, Region, State, Retailer, Product Category)
+17. Average Operating Profit Margin by Method (Total, Region, State, Retailer, Product Category)
+18. Operating Profit by Method (Total, Region, State, Retailer, Product Category)
+19. Average Retail Price by Method (Total, Region, State, Retailer, Product Category)
+
+#### State Sales Dashboard
+
+20. Total Sales by State (Total, Retailer, Product Category, Sales Method)
+21. Total Units Sold by State (Total, Retailer, Product Category, Sales Method)
+22. Average Operating Profit Margin by State (Total, Retailer, Product Category, Sales Method)
+23. Operating Profit by State (Total, Retailer, Product Category, Sales Method)
+24. Average Retail Price by State (Total, Retailer, Product Category, Sales Method)
+
+#### Dashboard on Performance Metrics
+
+25. Relationship between Price Per Unit and Operating Profit Margin (Overall and Product Category)
+26. Relationship between Price Per Unit and Units Sold (Overall and Product Category)
+27. Relationship between Sex Ratio and Gender Category Sales (SQL output table)
+28. Relationship between Income and Total Sales (SQL output table)
+29. Relationship between Income and Units Sold (SQL output table)
+30. Relationship between Income and Average Price Per Unit (Overall) (SQL output table)
+31. Relationship between Income and Average Price Per Unit (Product Category) (SQL output table)
