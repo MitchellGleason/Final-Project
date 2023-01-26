@@ -7,6 +7,40 @@
  ## Description of Data
  
 Adidas, a global sportswear company, saw a decline in sales during the 2020-2022 period, primarily due to the impact of the COVID-19 pandemic on the retail industry. In 2020, Adidas reported a decline in sales of 8% compared to the previous year. However, in 2021, the company saw a rebound in sales with an increase of 8% compared to 2020. This was due in part to the reopening of brick-and-mortar stores and the increasing demand for athletic wear as people returned to sports and fitness activities. Additionally, the company's e-commerce sales also increased significantly during this time period, as more consumers turned to online shopping. Despite the challenging economic conditions, Adidas was able to maintain profitability during this period through cost-saving measures and a focus on digital sales channels. The data we are analyzing is the Adidas Sales Data 2020-2022 from 6 retailers across all 50 states in the US.
+
+## Description of data files
+
+1. Adidas US Sales Datasets.xlsx - Raw Data file exported from kaggle.com
+
+2. ETL_Process_I - Python Notebooks used to clean data set 
+
+3. cleaned_adidas_sales_data.csv - Output csv file post execution first stage of ETL
+
+4. ETL_2 - Generate lookup tables for the relational database
+
+5. Adidas_sales.csv - Adidas Sales Dataset
+
+6. Retailers.csv - Retailers Lookup table
+
+7. States.csv - States Lookup table
+
+8. Regions.csv - Regions Lookup table
+
+9. Products.csv - Products Lookup table
+
+10. Tableau.csv - Clean dataset for Tableau visualizations & dashboard
+
+11. ERD.png -  Relational schema generated from quickdbd
+
+12. ERD.sql - Query file to generate tables in relational database
+
+13. US_Population_Data folder - US Census Data for 2020 from United States Census Bureau
+
+14. Canada_Population_Data folder - Canada Census Data for 2020 from Statistics Canada
+
+
+
+
  
  ## Entity Relationship Diagram
  
@@ -45,11 +79,11 @@ Unsupervised Machine Learning Clustering:
 
 Following are some of the sketches that can be can drawan using Tableu for the Adidas Dataset :
 
-1) We can get a Bar chart for Total Sales for each product, State and region. For that we have to place Total Sales in Rows and Product ,state and/or region in Columns
+1. We can get a Bar chart for Total Sales for each product, State and region. For that we have to place Total Sales in Rows and Product ,state and/or region in Columns
 
-2) We get a pie chart of Total sales or units sold for every region.
+2. We get a pie chart of Total sales or units sold for every region.
 
-3) We can create a line chart to see total sales for each years by monthly, quarterly , half yearly by placing Invoice date to columns and Total sales in Rows column
+3. We can create a line chart to see total sales for each years by monthly, quarterly , half yearly by placing Invoice date to columns and Total sales in Rows column
 
 ## Questions to Answer
 
