@@ -12,11 +12,11 @@ Adidas, a global sportswear company, saw a decline in sales during the 2020-2022
 
 1. Adidas US Sales Datasets.xlsx - Raw Data file exported from kaggle.com
 
-2. ETL_Process_I - Python Notebooks used to clean data set 
+2. ETL_Process_I.ipynb - Python Notebooks used to clean data set 
 
 3. cleaned_adidas_sales_data.csv - Output csv file post execution first stage of ETL
 
-4. ETL_2 - Generate lookup tables for the relational database
+4. ETL_2.ipynb - Generate lookup tables for the relational database
 
 5. Adidas_sales.csv - Adidas Sales Dataset
 
