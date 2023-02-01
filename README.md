@@ -44,7 +44,7 @@ After analysing US Adidas Sales Data, few visualizations have been created using
 - Comparison was drawn between Number of Sales vs Total Sales to analyse the relation between two factors for each State in US. High number of sales doesn't have a direct relation with High Total Sale. Even though, number of Sale is high, some states are lacking behind others even with total sales amount[Number of Sales vs Total Sales]().
 - Number of Sales for each product has been plotted in a bar chart for all 5 regions.Men's Street Footwear has been recorded as the highest in Sales [Bar Chart]().
 - Each Product sale has been visualised against each region, West region has been recorded as the highest in number of units sold. Sale of each product is recorded highest in West region[Product Sale vs Region]().
-
+- There are three sales method in sales data file, they were visualized using pie chart feature to find out which method records the highest number. After analysing data in Tableau, online method is found to be the most preferred one with double operating profit as compared to in store or outlet purchase[Operating Profit vs payment method]().
 
 
 
