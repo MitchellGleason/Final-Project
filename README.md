@@ -13,7 +13,7 @@
 
  ## Machine Learning
 
- Using various Machine Learning algorithms, we will be predictiong our Target variables which are "Total Sales" and "Opertating Margin" columns from our dataset. We will be dropping unnecessary columns from our dataset which are not needed for data training purposes. 
+Using various Machine Learning algorithms, we will be predictiong our Target variables which are "Total Sales" and "Opertating Margin" columns from our dataset. We will be dropping unnecessary columns from our dataset which are not needed for data training purposes. 
  
  Using get_dummies() method, we will be converting some of our Feature variables into Binary. We will be testing our data on different Machine Learning algorithms namely Multiple Linear Regression, Random Forest etc. in order to check  which is the best fit for closest prediction.
 
@@ -24,10 +24,24 @@
  - train the model (passing on Feature variables to train model)
  -  make predictions (predicting Target variable (total sales or Operating Margin))
 
+Multiple Linear Regression:
+- Input Data:
+	- Total daily income per state
+	- Date
+- Output Data:
+	- Prediction of future daily income per state
 
+Unsupervised Machine Learning Clustering:
+- Input Data:
+	- Dimensionality reduction/scaling of demographic data (per state and province)
+- Output Data:
+	- Categorized groupings of similar states/provinces
 
 ## Tableau Visualization
 
-After analysing Adidas Sales Data, few visualizations have been created using Tableau.csv file:
+After analysing US Adidas Sales Data, few visualizations have been created using Tableau.csv file. Here is a [link]() to Tableau Public which has few worksheets regarding data analysis.
+- Number of Sales data has been plotted against each retailer to analyse which retailer has the highest number of sales, and it is found that Foot Locker has the highest number[Number of Sales]().
+
+
 
 
