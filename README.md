@@ -62,7 +62,6 @@ Unsupervised Machine Learning Clustering:
 - Output Data:
 	- Categorized groupings of similar states/provinces
 
-<<<<<<< HEAD
 ### Results
 
 #### Unsupervised Machine Learning Clustering:
@@ -183,8 +182,6 @@ SMOTEENN Results:
 </details>
 
 With an accuracy score of 95%, the SMOTEENN model also provides a good model for predicting the operating margin. Unlike the other models however, this model had a significantly higher number of false positives but a very low number of false negatives. This model seems to have worked opposite of the random forest classifier, where this model lacked in negative recall but had 99% positive recall score.
-=======
->>>>>>> f9517e599fa7f61214722882e61bd66b63fe4cf8
 
 ## Exploratory Data Analysis & Tableau Visualizations
 
@@ -249,7 +246,7 @@ The following is an exhaustive list of various exploratory data analysis and vis
 29. Relationship between Income and Units Sold (SQL output table)
 30. Relationship between Income and Average Price Per Unit (Overall) (SQL output table)
 31. Relationship between Income and Average Price Per Unit (Product Category) (SQL output table)
-=======
+
 ## Tableau Visualization
 
 After analysing US Adidas Sales Data, few visualizations have been created using Tableau.csv file. Here is a [link]() to Tableau Public which has few worksheets regarding data analysis.
