@@ -22,6 +22,8 @@ Adidas, a global sportswear company, saw a decline in sales during the 2020-2022
 - Tableau.csv - Clean dataset for Tableau visualizations & dashboard
 - ERD.png -  Relational schema generated from quickdbd
 - ERD.sql - Query file to generate tables in relational database
+- AdidasSalesDatabase.sql - Query file to pull database tables from AWS S3 bucket
+- AdidasSalesawsS3RDS.ipynb - Connecting AWS S3 bucket to write dataset tables in postgres
 - US_Population_Data folder - US Census Data for 2020 from United States Census Bureau
 - Canada_Population_Data folder - Canada Census Data for 2020 from Statistics Canada
 
@@ -35,7 +37,7 @@ Adidas, a global sportswear company, saw a decline in sales during the 2020-2022
  
 ![ERD](https://user-images.githubusercontent.com/111805716/214197137-88b6d7d1-3c2c-4476-8e02-f2a6f4deb862.png)
 
-## Relational Database between AWS S3 Bucket & Postgres Database
+## Relational Database between AWS RDS S3 Bucket & SQL Database
 
 In order to query the relevant data in Postgres we had to create a relational database with our cloud AWS database. To do that we;
 
