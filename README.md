@@ -22,6 +22,8 @@ Adidas, a global sportswear company, saw a decline in sales during the 2020-2022
 - Tableau.csv - Clean dataset for Tableau visualizations & dashboard
 - ERD.png -  Relational schema generated from quickdbd
 - ERD.sql - Query file to generate tables in relational database
+- AdidasSalesDatabase.sql - Query file to pull database tables from AWS S3 bucket
+- AdidasSalesawsS3RDS.ipynb - Connecting AWS S3 bucket to write dataset tables in postgres
 - US_Population_Data folder - US Census Data for 2020 from United States Census Bureau
 - Canada_Population_Data folder - Canada Census Data for 2020 from Statistics Canada
 
@@ -35,6 +37,16 @@ Adidas, a global sportswear company, saw a decline in sales during the 2020-2022
  
 ![ERD](https://user-images.githubusercontent.com/111805716/214197137-88b6d7d1-3c2c-4476-8e02-f2a6f4deb862.png)
 
+## Relational Database between AWS RDS S3 Bucket & SQL Database
+
+In order to query the relevant data in Postgres we had to create a relational database with our cloud AWS database. To do that we;
+
+- Connected the AWS RDS database to Google Colab and installed required libraries, such as pyspark and sqlalchemy in Google Colab. 
+- Accessed the AWS RDS database instance through a secure connection using the database endpoint, username, password, and database name. 
+- Used SQLAlchemy to establish a connection from Google Colab to the AWS RDS database. 
+- Using pgAdmin, connected to the database by providing the hostname or IP address, port, username and password of the database. 
+
+Now we run SQL queries and visualize the data stored in the AWS RDS database in postgres. Below is the link to AWS S3 Bucket with all the data on project; https://s3.console.aws.amazon.com/s3/buckets/adidasdatag13?region=us-east-2&tab=objects
 
  ## Machine Learning
 
