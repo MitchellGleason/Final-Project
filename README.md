@@ -74,7 +74,7 @@ Unsupervised Machine Learning Clustering:
 - Output Data:
 	- Categorized groupings of similar states/provinces
 
-### Results
+### Results of machine learning analysis can be found [here](ML_README.md)
 
 #### Unsupervised Machine Learning Clustering:
 
