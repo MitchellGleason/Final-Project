@@ -148,7 +148,7 @@ With an accuracy score of 95%, the gradient boosting classifier also provides a 
 ![ML:Fig35 - Optimized Gradient Boosting Classifier Classification Report](Machine_Leanring_Notebooks/Figures/Fig35-OptimizedGradientBoostingRegression_ClassReport.png)
 </details>
 
-In order to achieve a better accuracy score, the random forest classifier parameters were optimized by using both GridSearchCV and a multi-nested for loop in case one or the other was unable to find the best parameters. The optimized gradient boosting classifier showed the most improved results with a higher accuracy score, up to 99%, with minor to large improvements in all precision and recall scores. The optimized confusion matrix also shows better results, with more true negatives, much less false positives, less false negatives, and more true positives. This optimized model is the best model for predicting the operating margin.
+In order to achieve a better accuracy score, the random forest classifier parameters were optimized by using both GridSearchCV and a multi-nested for loop in case one or the other was unable to find the best parameters. The optimized gradient boosting classifier showed the most improved results with a higher accuracy score, up to 99%, with minor to large improvements in all precision and recall scores. The optimized confusion matrix also shows better results, with more true negatives, much less false positives, less false negatives, and more true positives.
 
 ### SMOTEENN Results:
 
@@ -165,6 +165,22 @@ In order to achieve a better accuracy score, the random forest classifier parame
 </details>
 
 With an accuracy score of 95%, the SMOTEENN model also provides a good model for predicting the operating margin. Unlike the other models however, this model had a significantly higher number of false positives but a very low number of false negatives. This model seems to have worked opposite of the random forest classifier, where this model lacked in negative recall but had 99% positive recall score.
+
+#### Optimizing SMOTEENN:
+
+<details>
+    <summary>Click to expand image (ML:Fig36 - Optimized SMOTEENN Confusion Matrix)</summary>
+
+![ML:Fig36 - Optimized SMOTEENN Confusion Matrix](Machine_Leanring_Notebooks/Figures/Fig36-OptimizedSMOTEENN_ConfusionMatrix.png)
+</details>
+
+<details>
+    <summary>Click to expand image (ML:Fig37 - Optimized SMOTEENN Classification Report)</summary>
+
+![ML:Fig37 - Optimized SMOTEENN Classification Report](Machine_Leanring_Notebooks/Figures/Fig37-OptimizedSMOTEENN_ClassReport.png)
+</details>
+
+In order to achieve a better accuracy score, the SMOTEENN parameters were optimized by using both GridSearchCV and a multi-nested for loop in case one or the other was unable to find the best parameters. The optimized SMOTEENN model showed fantastic results with improvements in every class for both the confusion matrix and classification report. With almost perfect scores across the board, this model is the best model for predicting the operating margin.
 
 ## Predictive Multiple Linear Regression Machine Learning:
 
