@@ -52,12 +52,11 @@ Now we run SQL queries and visualize the data stored in the AWS RDS database in 
 
 Using various Machine Learning algorithms, we will be predictiong our Target variables which are "Total Sales" and "Opertating Margin" columns from our dataset. We will be dropping unnecessary columns from our dataset which are not needed for data training purposes. 
  
- Using get_dummies() method, we will be converting some of our Feature variables into Binary. We will be testing our data on different Machine Learning algorithms namely Multiple Linear Regression, Random Forest etc. in order to check  which is the best fit for closest prediction.
+Using get_dummies() method, we will be converting some of our Feature variables into Binary. We will be testing our data on different Machine Learning algorithms namely Multiple Linear Regression, Random Forest etc. in order to check  which is the best fit for closest prediction.
 
- 
  Scikit-learn, a python machine learning library will be used to implement supervised learning model. Following procedure will be used on dataset:
  
- - create a model ( using sklearn to implement linear regression) 
+ - create a model (using sklearn to implement linear regression) 
  - train the model (passing on Feature variables to train model)
  -  make predictions (predicting Target variable (total sales or Operating Margin))
 
