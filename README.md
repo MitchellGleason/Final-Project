@@ -52,12 +52,11 @@ Now we run SQL queries and visualize the data stored in the AWS RDS database in 
 
 Using various Machine Learning algorithms, we will be predictiong our Target variables which are "Total Sales" and "Opertating Margin" columns from our dataset. We will be dropping unnecessary columns from our dataset which are not needed for data training purposes. 
  
- Using get_dummies() method, we will be converting some of our Feature variables into Binary. We will be testing our data on different Machine Learning algorithms namely Multiple Linear Regression, Random Forest etc. in order to check  which is the best fit for closest prediction.
+Using get_dummies() method, we will be converting some of our Feature variables into Binary. We will be testing our data on different Machine Learning algorithms namely Multiple Linear Regression, Random Forest etc. in order to check  which is the best fit for closest prediction.
 
- 
  Scikit-learn, a python machine learning library will be used to implement supervised learning model. Following procedure will be used on dataset:
  
- - create a model ( using sklearn to implement linear regression) 
+ - create a model (using sklearn to implement linear regression) 
  - train the model (passing on Feature variables to train model)
  -  make predictions (predicting Target variable (total sales or Operating Margin))
 
@@ -74,126 +73,7 @@ Unsupervised Machine Learning Clustering:
 - Output Data:
 	- Categorized groupings of similar states/provinces
 
-### Results
-
-#### Unsupervised Machine Learning Clustering:
-
-Using SKLearn's KMeans algorithm, we were able to cluster the US states into 5 groups based on their demographic data. The first step taken for this was a simple KMeans clustering. First using unscaled data, an elbow curve was generated to determine the optimal number of clusters.
-
-<details>
-    <summary>Click to expand image (ML:Fig1 - KMeans Elbow Curve)</summary>
-
-![ML:Fig1 - KMeans Elbow Curve](Machine_Leanring_Notebooks/Figures/Fig1-KMeansElbow.png)
-
-</details>
-
-Using the elbow curve, 3D scatter plots were generated using 3 and 5 clusters.
-
-<details>
-	<summary>Click to expand image (ML:Fig2 - KMeans K3 3D Scatter Plot)</summary>
-
-![ML:Fig2 - KMeans K3 3D Scatter Plot](Machine_Leanring_Notebooks/Figures/Fig2-KMeansK3_3DPlot.png)
-</details>
-
-<details>
-	<summary>Click to expand image (ML:Fig3 - KMeans K5 3D Scatter Plot)</summary>
-
-![ML:Fig3 - KMeans K5 3D Scatter Plot](Machine_Leanring_Notebooks/Figures/Fig3-KMeansK5_3DPlot.png)
-</details>
-
-Based on these plots, different K values seem to divide the data into groups depending almost entirely on the population size alone. In order to create more meaningful clusters, Principal Component Analysis (PCA) was used to reduce the dimensionality of the data. This was done by scaling the data and then using PCA to reduce the number of features to 3. The elbow curve was then generated again to determine the optimal number of clusters.
-
-<details>
-	<summary>Click to expand image (ML:Fig4 - PCA Elbow Curve)</summary>
-
-![ML:Fig4 - PCA Elbow Curve](Machine_Leanring_Notebooks/Figures/Fig4-PCA_Elbow.png)
-</details>
-
-Using the elbow curve, 3D scatter plots were generated again using 3 and 5 clusters.
-
-<details>
-	<summary>Click to expand image (ML:Fig5 - PCA K3 3D Scatter Plot)</summary>
-
-![ML:Fig5 - PCA K3 3D Scatter Plot](Machine_Leanring_Notebooks/Figures/Fig5-PCA_K3_3DPlot.png)
-</details>
-
-<details>
-	<summary>Click to expand image (ML:Fig6 - PCA K5 3D Scatter Plot)</summary>
-
-![ML:Fig6 - PCA K5 3D Scatter Plot](Machine_Leanring_Notebooks/Figures/Fig6-PCA_K5_3DPlot.png)
-</details>
-
-While it does seem that population size still has an influence on the clustering, the clusters are more evenly distributed and the groups are more distinct. Either three or five clusters would be a good choice depending on the level of detail desired.
-
-#### Binary Supervised Machine Learning:
-
-Using multiple regression/classification models, we were able to predict if the operating margin for a specific product on a specific date from a specific retailer would be greater than or less than 35%. The data contains many operating margins greater than and less than 35%, this number was chosen because it is the median operating margin. 
-
-The first step taken for this was to convert the operating margin column into a binary column. This was done by creating a new column and setting the value to 1 if the operating margin was greater than 35% and 0 if it was less than or equal to 35%. The data was then split into 70/30 training and testing data split. The training data was used to train the model and the testing data was used to test the model.
-
-Decision Tree Classifier Results:
-
-<details>
-	<summary>Click to expand image (ML:Fig9 - Decision Tree Classifier Confusion Matrix)</summary>
-
-![ML:Fig9 - Decision Tree Classifier Confusion Matrix](Machine_Leanring_Notebooks/Figures/Fig9-DecisionTreeRegression_ConfusionMatrix.png)
-</details>
-
-<details>
-	<summary>Click to expand image (ML:Fig10 - Decision Tree Classifier Classification Report)</summary>
-
-![ML:Fig10 - Decision Tree Classifier Classification Report](Machine_Leanring_Notebooks/Figures/Fig10-DecisionTreeRegression_ClassReport.png)
-</details>
-
-With an accuracy score of 95%, the decision tree classifier provides a good model for predicting the operating margin. This model had an almost even number of false positives and false negatives and had lower precision and recall scores for negative predictions.
-
-Random Forest Classifier Results:
-
-<details>
-	<summary>Click to expand image (ML:Fig11 - Random Forest Classifier Confusion Matrix)</summary>
-
-![ML:Fig11 - Random Forest Classifier Confusion Matrix](Machine_Leanring_Notebooks/Figures/Fig11-RandomForestRegression_ConfusionMatrix.png)
-</details>
-
-<details>
-	<summary>Click to expand image (ML:Fig12 - Random Forest Classifier Classification Report)</summary>
-
-![ML:Fig12 - Random Forest Classifier Classification Report](Machine_Leanring_Notebooks/Figures/Fig12-RandomForestRegression_ClassReport.png)
-</details>
-
-With an accuracy score of 96%, the random forest classifier also provides a good model for predicting the operating margin. This model had double the number of false negatives compared to false positives and lacked in negative recall, but had 99% positive recall score.
-
-Gradient Boosting Classifier Results:
-
-<details>
-	<summary>Click to expand image (ML:Fig13 - Gradient Boosting Classifier Confusion Matrix)</summary>
-
-![ML:Fig13 - Gradient Boosting Classifier Confusion Matrix](Machine_Leanring_Notebooks/Figures/Fig13-GradientBoostingRegression_ConfusionMatrix.png)
-</details>
-
-<details>
-	<summary>Click to expand image (ML:Fig14 - Gradient Boosting Classifier Classification Report)</summary>
-
-![ML:Fig14 - Gradient Boosting Classifier Classification Report](Machine_Leanring_Notebooks/Figures/Fig14-GradientBoostingRegression_ClassReport.png)
-</details>
-
-With an accuracy score of 95%, the gradient boosting classifier also provides a good model for predicting the operating margin. Similar to the decision tree classifier, this model had an almost even number of false positives and false negatives and had lower precision and recall scores for negative predictions.
-
-SMOTEENN Results:
-
-<details>
-	<summary>Click to expand image (ML:Fig15 - SMOTEENN Confusion Matrix)</summary>
-
-![ML:Fig15 - SMOTEENN Confusion Matrix](Machine_Leanring_Notebooks/Figures/Fig15-SMOTEENN_ConfusionMatrix.png)
-</details>
-
-<details>
-	<summary>Click to expand image (ML:Fig16 - SMOTEENN Classification Report)</summary>
-
-![ML:Fig16 - SMOTEENN Classification Report](Machine_Leanring_Notebooks/Figures/Fig16-SMOTEENN_ClassReport.png)
-</details>
-
-With an accuracy score of 95%, the SMOTEENN model also provides a good model for predicting the operating margin. Unlike the other models however, this model had a significantly higher number of false positives but a very low number of false negatives. This model seems to have worked opposite of the random forest classifier, where this model lacked in negative recall but had 99% positive recall score.
+### Results of machine learning analysis can be found [here](ML_README.md)
 
 ## Exploratory Data Analysis & Tableau Visualizations
 
