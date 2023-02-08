@@ -149,7 +149,7 @@ After analysing US Adidas Sales Data, few visualizations have been created using
 
 Following dashboards have been created using Tableau:
 
-- [Adidas Sales Analysis by Sales Method](https://github.com/MitchellGleason/Final-Project/blob/Ranjodh/Tableau_sketches/Adidas%20Sales%20Analysis%20by%20Sales%20Method.twbx)   (https://public.tableau.com/app/profile/navpreet.kaur.gill/viz/AdidasSalesAnalysisbySalesMethod/AdidasSalesAnalysisbySalesMethod?publish=yes) This has four worksheets regarding data analysis by sales method. Regional Operating Profit has been visualized for all 5 regions in US. The top 5 States which are making profit by selling Adidas products have been highlighted in visualization. Three different worksheets have been added to dashboard which show high profit States according to sales method.
+- [Adidas Sales Analysis by Sales Method]  (https://public.tableau.com/app/profile/navpreet.kaur.gill/viz/AdidasSalesAnalysisbySalesMethod/AdidasSalesAnalysisbySalesMethod?publish=yes) This has four worksheets regarding data analysis by sales method. Regional Operating Profit has been visualized for all 5 regions in US. The top 5 States which are making profit by selling Adidas products have been highlighted in visualization. Three different worksheets have been added to dashboard which show high profit States according to sales method.
 
 - [Sales Dashboard](https://github.com/MitchellGleason/Final-Project/blob/Ranjodh/Tableau_sketches/Final%20-%20Profit%20and%20Sales%20Dashboards.twbx) - 
 
