@@ -154,6 +154,6 @@ Following dashboards have been created using Tableau:
 - [Sales Dashboard](https://github.com/MitchellGleason/Final-Project/blob/Ranjodh/Tableau_sketches/Final%20-%20Profit%20and%20Sales%20Dashboards.twbx) - 
 
 - [Adidas Sales Analysis by Product & Price](https://github.com/MitchellGleason/Final-Project/blob/Ranjodh/Tableau_sketches/Product%20Worksheets-2.twbx) -
-This Dashboard reflects Adidas sales by Product and prices and includes 3 wroksheets. One of the worksheet Visualises Product operating profit with various sales method. Overall results show that online sales method produces more sales across different type of products. Secondlly, another worksheet exhibits average price per unit per state in map format indexed with different color ranges. Lastly, 3rd worksheet presents Average Retail Price for 6 different retailers across diffrent product types.
+This Dashboard reflects Adidas sales by Product and prices and includes 3 wroksheets. One of the worksheet visualises Product operating profit with various sales method. Overall results show that online sales method produces more sales across different type of products. Secondly, another worksheet exhibits average price per unit per state in map format indexed with different color ranges. Lastly, 3rd worksheet presents Average Retail Price for 6 different retailers across diffrent product types.
 
 
