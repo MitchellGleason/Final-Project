@@ -149,5 +149,16 @@ After analysing US Adidas Sales Data, few visualizations have been created using
 
 Following dashboards have been created using Tableau:
 
-- Adidas Sales Analysis by Sales Method - Here is a [Sales Method Dashboard](https://public.tableau.com/app/profile/navpreet.kaur.gill/viz/AdidasSalesAnalysisbySalesMethod/AdidasSalesAnalysisbySalesMethod?publish=yes) which has four worksheets regarding data analysis by sales method. Regional Operating Profit has been visualized for all 5 regions in US. The top 5 States which are making profit by selling Adidas products have been highlighted in visualization. Three different worksheets have been added to dashboard which show high profit States according to sales method.
+- [Adidas Sales Analysis by Sales Method](https://github.com/MitchellGleason/Final-Project/blob/Ranjodh/Tableau_sketches/Adidas%20Sales%20Analysis%20by%20Sales%20Method.twbx)   This has four worksheets regarding data analysis by sales method. Regional Operating Profit has been visualized for all 5 regions in US. The top 5 States which are making profit by selling Adidas products have been highlighted in visualization. Three different worksheets have been added to dashboard which show high profit States according to sales method.
+
+- [Sales Dashboard](https://github.com/MitchellGleason/Final-Project/blob/Ranjodh/Tableau_sketches/Final%20-%20Profit%20and%20Sales%20Dashboards.twbx) - 
+Our latest analysis of Adidas Sales Data in the US. Our Tableau dashboard showcases a comprehensive overview of the average price per unit sold in all 50 states, average retail prices for different product categories, and product operating profit margins by sales methods.
+The heat map displays the average price per unit sold across all 50 states, allowing us to quickly identify states with higher or lower prices. This information can help us make informed decisions about which regions may require more marketing efforts or product promotions.
+The horizontal bar chart provides an insight into the average retail price for all product categories sold in 6 retailers. We can see the differences in pricing and make decisions on which product categories may require more focus, based on their price point.
+The bar chart of the product operating profit margins by sales methods provides a clear picture of how our different sales channels are performing. In-store, online and outlet sales are displayed, with the highest profit margins, helping us understand which sales channels may require more resources and investments.
+In conclusion, this Tableau dashboard provides a comprehensive analysis of Adidas sales data in the US, providing key insights into our pricing and sales strategies. By utilizing this information, we can make informed decisions to drive sales and maximize profits.
+
+- [Adidas Sales Analysis by Product & Price](https://github.com/MitchellGleason/Final-Project/blob/Ranjodh/Tableau_sketches/Product%20Worksheets-2.twbx) -
+This Dashboard reflects Adidas sales by Product and prices and includes 3 wroksheets. One of the worksheet visualises Product operating profit with various sales method. Overall results show that online sales method produces more sales across different type of products. Secondly, another worksheet exhibits average price per unit per state in map format indexed with different color ranges. Lastly, 3rd worksheet presents Average Retail Price for 6 different retailers across diffrent product types.
+
 
